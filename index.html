@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>X Money – Early Beta Access | Limited Spots</title>
+  <meta name="description" content="Join the exclusive X Money beta. Send, receive & earn instantly. Only 5,000 spots left."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --x-black: #000000;
+      --x-white: #ffffff;
+      --x-blue: #1d9bf0;
+      --x-blue-dark: #0c84d6;
+      --x-gray: #16181c;
+      --x-light-gray: #2f3336;
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--x-black);
+      color: var(--x-white);
+      line-height: 1.5;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+    header {
+      padding: 32px 0 80px;
+      text-align: center;
+      background: linear-gradient(180deg, #0c84d6 0%, #000 70%);
+    }
+    .logo {
+      font-size: 3.5rem;
+      font-weight: 800;
+      letter-spacing: -2px;
+      margin-bottom: 16px;
+    }
+    .tagline {
+      font-size: 1.6rem;
+      font-weight: 500;
+      opacity: 0.9;
+      max-width: 620px;
+      margin: 0 auto 40px;
+    }
+    .cta-button {
+      display: inline-block;
+      background: var(--x-blue);
+      color: white;
+      font-size: 1.25rem;
+      font-weight: 600;
+      padding: 18px 48px;
+      border-radius: 9999px;
+      text-decoration: none;
+      transition: all 0.2s;
+      box-shadow: 0 10px 30px rgba(29,155,240,0.3);
+    }
+    .cta-button:hover {
+      background: var(--x-blue-dark);
+      transform: translateY(-3px);
+      box-shadow: 0 15px 40px rgba(29,155,240,0.4);
+    }
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+      margin: 60px 0;
+      flex-wrap: wrap;
+    }
+    .stat {
+      text-align: center;
+    }
+    .stat-number {
+      font-size: 3.2rem;
+      font-weight: 800;
+      color: var(--x-blue);
+    }
+    .stat-label {
+      font-size: 1.1rem;
+      opacity: 0.7;
+      margin-top: 8px;
+    }
+    .features {
+      padding: 100px 0;
+      background: var(--x-gray);
+    }
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 40px;
+      margin-top: 60px;
+    }
+    .feature-card {
+      background: var(--x-light-gray);
+      border-radius: 20px;
+      padding: 40px 32px;
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+    .feature-icon {
+      font-size: 3rem;
+      margin-bottom: 24px;
+      color: var(--x-blue);
+    }
+    .urgency {
+      text-align: center;
+      padding: 80px 0;
+      background: linear-gradient(180deg, #000 0%, #1a2b3c 100%);
+    }
+    .countdown {
+      font-size: 4rem;
+      font-weight: 800;
+      color: #ff3b5c;
+      margin: 32px 0;
+      letter-spacing: -2px;
+    }
+    .form-section {
+      max-width: 540px;
+      margin: 0 auto;
+      padding: 60px 0;
+    }
+    input[type="email"] {
+      width: 100%;
+      padding: 18px 24px;
+      font-size: 1.1rem;
+      border: 2px solid var(--x-blue);
+      border-radius: 9999px;
+      background: transparent;
+      color: white;
+      margin-bottom: 24px;
+    }
+    input[type="email"]::placeholder {
+      color: rgba(255,255,255,0.5);
+    }
+    .disclaimer {
+      text-align: center;
+      font-size: 0.9rem;
+      opacity: 0.6;
+      margin-top: 60px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <div class="logo">X Money</div>
+      <div class="tagline">The future of money is here.<br/>Instant. Borderless. Yours.</div>
+      <a href="#" class="cta-button">Request Beta Access – Limited Spots</a>
+    </div>
+  </header>
+
+  <section class="stats">
+    <div class="container">
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-number">12M+</div>
+          <div class="stat-label">Projected Users in Year 1</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">0.0001s</div>
+          <div class="stat-label">Average Transaction Speed</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">∞</div>
+          <div class="stat-label">Scalability</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="container">
+      <h2 style="text-align:center; font-size:3rem; margin-bottom:20px;">Why X Money?</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>Instant Global Transfers</h3>
+          <p>Send money to anyone, anywhere — no banks, no borders, no delays.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔒</div>
+          <h3>Zero-Knowledge Privacy</h3>
+          <p>Only you can see your balance and transactions. Full control.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📈</div>
+          <h3>Built-in Yield</h3>
+          <p>Earn automatically on every dollar you hold — no staking required.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="urgency">
+    <div class="container">
+      <h2 style="font-size:2.8rem;">Beta Access Closes Soon</h2>
+      <div class="countdown">4,812 spots remaining</div>
+      <p style="font-size:1.4rem; opacity:0.9; max-width:600px; margin:0 auto 40px;">
+        Only verified early access members will get lifetime priority features, zero fees for the first 12 months, and exclusive governance tokens.
+      </p>
+      <a href="#" class="cta-button" style="font-size:1.5rem; padding:22px 60px;">Claim My Spot Now</a>
+    </div>
+  </section>
+
+  <section class="form-section">
+    <div class="container">
+      <h2 style="text-align:center; font-size:2.5rem; margin-bottom:32px;">Get Early Access</h2>
+      <form>
+        <input type="email" placeholder="Enter your email address" required>
+        <a href="#" class="cta-button" style="width:100%; text-align:center; display:block;">Join the Waitlist</a>
+      </form>
+    </div>
+  </section>
+
+  <div class="disclaimer container">
+    <p>X Money is currently in private beta. Access is by invitation only.<br/>
+    This is not an investment opportunity. No funds are being solicited.<br/>
+    © 2026 X Corp. All rights reserved. This is a fictional concept site.</p>
+  </div>
+
+</body>
+</html>
